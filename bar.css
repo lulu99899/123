@@ -1,0 +1,115 @@
+div.bar01
+{
+	/*background: url(../images/default2.gif) repeat-x;*/
+	background-color:#019FC2;
+	line-height: 240%;
+	font-size: 10pt;
+	color: White;
+	text-align: left;
+	padding-left: 12px;
+	font-weight: bold;
+}
+div.bar02
+{
+	background: url("frame02.gif")/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/frame02.gif*/ -3px -2px no-repeat;
+	line-height: 240%;
+	font-size: 10pt;
+	color: #ff6801;
+	text-align: left;
+	padding-left: 12px;
+	font-weight: bold;
+}
+div.bar03
+{
+	background: url("frame02.gif")/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/frame02.gif*/ -3px -42px no-repeat;
+	padding: 4px 16px 0px 8px;
+	text-align: left;
+}
+div.bar04
+{
+	background: url("frame02.gif")/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/frame02.gif*/ -3px -404px no-repeat;
+	height: 32px;
+}
+
+div.bar05
+{
+	height: 25px;
+	background: url("bar01.gif")/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/bar01.gif*/ left top no-repeat;
+	line-height: 200%;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 12px;
+}
+table.bar06
+{
+	border: none 0px;
+	border-collapse: collapse;
+	background-color: White;
+	width: 100%;
+}
+table.bar06 td.td0
+{
+	width: 106px;
+	height: 114px;
+	border: none;
+	background: url("bar01.gif")/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/bar01.gif*/ left -44px no-repeat;
+}
+table.bar06 td.td1
+{
+	width: auto;
+	height: 114px;
+	border: none;
+	background: url("bar01.gif")/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/bar01.gif*/ right -44px no-repeat;
+	padding-right: 14px;
+	vertical-align: middle;
+}
+div.bar07
+{
+	height: 24px;
+	border: 1px solid gray;
+	text-align: left;
+	padding-left: 38px;
+	padding-right: 12px;
+	background: url("bar01.gif")/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/bar01.gif*/ 0px -175px;
+}
+div.bar08
+{
+	height: 32px;
+	background: url("frame03.gif")/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/frame03.gif*/ left top no-repeat;
+}
+div.bar08 div
+{
+	width: 156px;
+	margin: 10px auto;
+	padding-top: 8px;
+	text-align: center;
+	color: #144a02;
+	font-weight: bold;
+}
+div.bar09
+{
+	background: url("frame03.gif")/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/frame03.gif*/ left bottom no-repeat;
+}
+div.bar09 table
+{
+	border: 0px none;
+	border-collapse: collapse;
+	width: 100%;
+}
+div.bar09 tr
+{
+	height: 24px;
+}
+div.bar09 td
+{
+	text-align: center;
+}
+div.bar10
+{
+	height: 24px;
+	border: 1px solid gray;
+	text-align: left;
+	padding-left: 38px;
+	background: url("bar01.gif")/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/bar01.gif*/ 0px -275px;
+}

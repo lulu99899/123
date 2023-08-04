@@ -1,0 +1,392 @@
+body
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font-size: 9pt;
+	font: 宋体 normal;
+	/*background: #f7f7f7;*/
+	background: url(  "十二�"十二大背景图.jpg" )/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/jggs/十二大背景图.jpg*/ no-repeat 0px 0px;
+}
+
+.container
+{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: White;
+}
+.topNavCnt
+{
+	padding-left: 6px;
+	line-height: 200%;
+}
+.topNav table
+{
+	width: 100%;
+	border-collapse: collapse;
+	border: 0px none;
+}
+.topNav tr
+{
+	height: 30px;
+}
+.topNav td
+{
+	text-align: center;
+	vertical-align: middle;
+	font-size: 9pt;
+	font-family: 宋体;
+	font-weight: bold;
+	border: 0px none;
+	background: url(  "bt.gif" )/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/bt.gif*/ no-repeat 0px 0px;
+	/*background: url(  "../images/default.gif" ) no-repeat 0px 0px white;*/
+	border: 0px none;
+	width: 80px;
+	height: 33px;
+	cursor: default;
+	color:White;
+}
+.topNav td.pad
+{
+	width: auto;
+	background-image: none;
+	background-color: White;
+}
+.topNav a
+{
+	text-decoration: none;
+	font-size: 9pt;
+	font-family: 宋体;
+	font-weight: bold;
+	margin-left: 4px;
+	color: white;
+}
+.topNav a:hover
+{
+	color: White;
+}
+.topSubNav
+{
+	height: 30px;
+	/*background: url(   "../images/default2.gif" ) repeat-x 0px 0px;*/
+	background-color: #eaeaea;
+	padding-left: 12px;
+	text-align: left;
+}
+.topSubNav span
+{
+	display: none;
+}
+.topSubNav span a
+{
+	text-decoration: none;
+	font-size: 9pt;
+	font-family: 宋体;
+	font-weight: normal;
+	margin-left: 4px;
+	line-height: 240%;
+	/*color: #F8791B;*/
+	color:black;
+	cursor: pointer;
+}
+.topSubNav span a:hover
+{
+	color: Red;
+}
+
+input.button
+{
+	width: 72px;
+	height: 21px;
+	margin: 4px 8px 4px 8px;
+	font: 宋体 normal;
+}
+table.content
+{
+	width: 100%;
+	border-collapse: collapse;
+	border: 0px none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+table.content td
+{
+	vertical-align: top;
+	border: 0px none;
+	text-align: center;
+}
+table.frame0
+{
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #5FB043;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+table.frame0 td
+{
+	border: 0px none;
+	vertical-align: middle;
+}
+table.frame0 .tHead
+{
+	height: 30px;
+	background: url(   "default2.gif" )/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/default2.gif*/ repeat-x 0px 0px;
+}
+table.frame0 .tHead td
+{
+	text-align: left;
+	font-weight: bold;
+	color: White;
+}
+table.venditionSearch .col0
+{
+	width: 80px;
+	text-align: right;
+}
+table.venditionSearch .col1
+{
+	text-align: left;
+}
+table.venditionSearch .col1 select
+{
+	width: 192px;
+}
+table.venditionSearch .col1 input
+{
+	width: 186px;
+}
+table.venditionSearch .tFoot td
+{
+	text-align: right;
+	padding-right: 14px;
+}
+
+table.developer
+{
+	width: 100%;
+	border-collapse: collapse;
+	border: 0px none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+table.developer td
+{
+	vertical-align: top;
+	border: 0px none;
+	text-align: left;
+}
+table.developer td.td00, table.developer td.td02, table.developer td.td20, table.developer td.td22
+{
+	background: url(   "default.gif" )/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/default.gif*/ no-repeat;
+}
+table.developer td.td00
+{
+	width: 12px;
+	height: 30px;
+	background-position: 0px -53px;
+}
+table.developer td.td01
+{
+	width: auto;
+	height: 30px;
+	background: url(   "default2.gif" )/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/default2.gif*/ repeat-x 0px -41px;
+	vertical-align: middle;
+}
+table.developer td.td02
+{
+	width: 12px;
+	height: 30px;
+	background-position: -33px -53px;
+}
+table.developer td.td10, table.developer td.td11, table.developer td.td12
+{
+	border-top: 1px solid #6DB351;
+}
+table.developer td.td10
+{
+	border-left: 1px solid #6DB351;
+}
+table.developer td.td12
+{
+	border-right: 1px solid #6DB351;
+}
+table.developer td.td20
+{
+	width: 12px;
+	height: 12px;
+	background-position: 0px -91px;
+}
+table.developer td.td21
+{
+	border-bottom: 1px solid #6DB351;
+}
+table.developer td.td22
+{
+	width: 12px;
+	height: 12px;
+	background-position: -33px -91px;
+}
+table.developer a
+{
+	text-decoration: none;
+	font-size: 9pt;
+	font-family: 宋体;
+	font-weight: normal;
+	margin-left: 4px;
+	line-height: 160%;
+	color: black;
+	cursor: pointer;
+}
+table.developer a:hover
+{
+	color: Red;
+}
+table.developer hr
+{
+	border-top: 0px none;
+	border-bottom: 1px dashed #6DB351;
+	border-left: 0px none;
+	border-right: 0px none;
+}
+
+table.newProject
+{
+	width: 100%;
+	border-collapse: collapse;
+	border: 0px none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+table.newProject td
+{
+	vertical-align: top;
+	border: 0px none;
+	text-align: left;
+}
+table.newProject td.td00, table.newProject td.td01, table.newProject td.td02, table.newProject td.td20, table.newProject td.td22
+{
+	background: url(   "default.gif" )/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/default.gif*/ no-repeat;
+}
+table.newProject td.td00
+{
+	width: 12px;
+	height: 18px;
+	background-position: -98px -37px;
+}
+table.newProject td.td01
+{
+	width: auto;
+	height: 18px;
+	background: url(   "default2.gif" )/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/default2.gif*/ no-repeat;
+	vertical-align: middle;
+}
+table.newProject td.td02
+{
+	width: 12px;
+	height: 18px;
+	background-position: -136px -37px;
+}
+table.newProject td.td10, table.newProject td.td11, table.newProject td.td12
+{
+	border-top: 1px solid #6DB351;
+}
+table.newProject td.td10
+{
+	border-left: 1px solid #6DB351;
+}
+table.newProject td.td12
+{
+	border-right: 1px solid #6DB351;
+}
+table.newProject td.td20
+{
+	width: 12px;
+	height: 12px;
+	background-position: 0px -91px;
+}
+table.newProject td.td21
+{
+	border-bottom: 1px solid #6DB351;
+}
+table.newProject td.td22
+{
+	width: 12px;
+	height: 12px;
+	background-position: -33px -91px;
+}
+table.newProject a
+{
+	text-decoration: none;
+	font-size: 9pt;
+	font-family: 宋体;
+	font-weight: normal;
+	margin-left: 4px;
+	line-height: 160%;
+	color: black;
+	cursor: pointer;
+}
+table.newProject a:hover
+{
+	color: Red;
+}
+
+div.query16
+{
+	background: url(      "default.gif" )/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/default.gif*/ no-repeat 00px -303px;
+	padding-left: 24px;
+	line-height: 160%;
+	cursor: default;
+}
+div.query24
+{
+	background: url(      "default.gif" )/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/default.gif*/ no-repeat 0px -330px;
+	padding-left: 32px;
+	cursor: default;
+}
+td.tal
+{
+	text-align: left;
+}
+td.tar
+{
+	text-align: right;
+}
+
+a
+{
+	color: Black;
+	text-decoration: none;
+}
+a:hover
+{
+	color: Red;
+}
+
+table.floorShow
+{
+	border: 0px none;
+	border-collapse: collapse;
+}
+table.floorShow td
+{
+	padding: 2px 8px 2px 8px;
+	line-height: 180%;
+	text-align: left;
+}
+
+table.projectSum
+{
+	border: 0px none;
+	border-collapse: collapse;
+	width: 100%;
+}
+table.projectSum td
+{
+	width: 33%;
+	text-align: left;
+	vertical-align: bottom;
+	padding-left: 86px;
+	height: 32px;
+	background-image: url("icon1.gif")/*tpa=http://dgbdc.dg.gov.cn/DGWebSite_v2/images/icon1.gif*/;
+	background-repeat: no-repeat;
+}

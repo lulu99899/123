@@ -1,0 +1,181 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv=Content-Type content='text/html; charset=utf-8'>
+<title>
+	不动产登记信息查询结果查验
+</title><link rel="stylesheet" type="text/css" href="default.css" tppabs="http://dgbdc.dg.gov.cn/DGWebSite_v2/css/default.css" /><link rel="stylesheet" type="text/css" href="bar.css" tppabs="http://dgbdc.dg.gov.cn/DGWebSite_v2/css/bar.css" />
+    <style type="text/css">
+        .div00
+        {
+            width: 720px;
+            margin: 0px auto;
+            font-size: 11pt;
+            font-family: 宋体;
+            line-height: 140%;
+        }
+        div.div20
+        {
+            width: 1024px;
+        }
+        .div01
+        {
+            font-size: 24pt;
+            line-height: 140%;
+        }
+        .div02
+        {
+            font-size: 14pt;
+            line-height: 140%;
+        }
+        .div03, .div04
+        {
+            padding-left: 540px;
+            text-align: left;
+        }
+        .div20 .div03, .div20 .div04
+        {
+            padding-left: 840px;
+        }
+        .div00 table
+        {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px black solid;
+            text-align: center;
+        }
+        .div00 table td
+        {
+            border: 1px black solid;
+            text-align: center;
+            line-height: 140%;
+            padding: 2px 2px 2px 2px;
+            font-size: 11pt;
+            height: 32px;
+        }
+        div.div20 table td
+        {
+            font-size: 10pt;
+        }
+        .td0
+        {
+            width: 44px;
+        }
+        .td1, .td3
+        {
+            width: 120px;
+        }
+        .div00 table td.td2, .div00 table td.td4
+        {
+            width: 212px;
+            text-align: left;
+        }
+        .div00 table td.td5
+        {
+            text-align: left;
+        }
+        .div00 table td.td6
+        {
+            text-align: left;
+            vertical-align: top;
+        }
+        .div12 td.td0
+        {
+            width: 84px;
+        }
+        .div12 td.td1, .div12 td.td3
+        {
+            width: 120px;
+        }
+        .div12 table td.td2, .div12 table td.td4
+        {
+            width: 192px;
+            text-align: left;
+        }
+    </style>
+
+    <script type="text/javascript" src="jquery-1.4.2.min.js" tppabs="http://dgbdc.dg.gov.cn/DGWebSite_v2/js/jquery-1.4.2.min.js"></script>
+
+    <script type="text/javascript">
+
+        function checkCondition() {
+            var $obj = $("#no");
+            if ($obj.val() == "") {
+                $obj.select();
+                alert("请输入证明编号。");
+                return false;
+            }
+//            else if (/^[0-3]\d(201|202)\d[0-1]\d[0-3]\d{6}$/.test($obj.val()) == false) {
+//                $obj.select();
+//                alert("证明编号格式不正确。");
+//                return false;
+//            }
+
+            $obj = $("#cNo");
+            if ($obj.val() == "") {
+                $obj.select();
+                alert("请输入校验码。");
+                return false;
+            }
+            else if (/^([a-z]|\d|[A-Z]){6}$/.test($obj.val()) == false) {
+                $obj.select();
+                alert("校验码格式不正确。");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+
+</head>
+<body>
+    <form name="form1" method="post" action="http://dgbdc.dg.gov.cn/DGWebSite_v2/Query/QueryAttest88.aspx?sjbhno=002023072602410&validateCode=AB1ED1" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTIwNTg0Njc0OA9kFgICAw9kFgICBw8WAh4EVGV4dAXdFDxkaXYgY2xhc3M9J2RpdjAwJz48ZGl2IGNsYXNzPSdkaXYwMSc+5LiN5Yqo5Lqn55m76K6w5L+h5oGv5p+l6K+i57uT5p6cPC9kaXY+PGRpdiBjbGFzcz0nZGl2MDInPu+8iOadg+WIqeS6uuafpeivou+8iTwvZGl2PjxkaXYgY2xhc3M9J2RpdjAzJz7nvJYmbmJzcDsmbmJzcDvlj7fvvJowMDIwMjMwNzI2MDI0MTA8L2Rpdj48ZGl2IGNsYXNzPSdkaXYwNCc+5qCh6aqM56CB77yaQUIxRUQxPC9kaXY+PGRpdiBjbGFzcz0nZGl2MTEnPjx0YWJsZT48dHI+PHRkIHJvd3NwYW49JzInIGNsYXNzPSd0ZDAnIG5vd3JhcD7nlLPor7c8YnIgLz7mn6Xor6I8YnIgLz7mnaHku7Y8L3RkPjx0ZCBjbGFzcz0ndGQxJyBub3dyYXA+5p2D5Yip5Lq6PC90ZD48dGQgY2xhc3M9J3RkMicgbm93cmFwPuael+a0geS7qjwvdGQ+PHRkIGNsYXNzPSd0ZDMnIG5vd3JhcD7ouqvku73or4HmmI7lj7fnoIE8L3RkPjx0ZCBjbGFzcz0ndGQ0JyBub3dyYXA+NDQxMjI2MTk5ODA4MTI0MzIwPC90ZD48L3RyPjx0cj48dGQgY2xhc3M9J3RkMSc+5Z2Q6JC9PC90ZD48dGQgY2xhc3M9J3RkMic+5Lic6I6e5biC5Y2X5Z+O5Yy65Y2X5Z+O6KGX6YGT5paw5Lit6LevMeWPt+aWsOS4remTti7ph5HoibLljY7luq0x5Y+35qW8MuWNleWFgzExMDXlj7c8L3RkPjx0ZCBjbGFzcz0ndGQzJz7mnYPlsZ7or4HmmI7lj7fnoIE8L3RkPjx0ZCBjbGFzcz0ndGQ0Jz7nsqTvvIgyMDE577yJ5Lic6I6e5LiN5Yqo5Lqn5p2D56ysMDQxMDc5NuWPtzwvdGQ+PC90cj48dHI+PHRkIHJvd3NwYW49JzcnIGNsYXNzPSd0ZDAnPuS4jTxiciAvPuWKqDxiciAvPuS6pzxiciAvPueZuzxiciAvPuiusDxiciAvPuaDhTxiciAvPuWGtTwvdGQ+PHRkIGNsYXNzPSd0ZDEnPuadg+WIqeS6ujwvdGQ+PHRkIGNsYXNzPSd0ZDInPuael+a0geS7qjwvdGQ+PHRkIGNsYXNzPSd0ZDMnPui6q+S7veivgeaYjuWPt+eggTwvdGQ+PHRkIGNsYXNzPSd0ZDQnPjQ0MTIyNjE5OTgwODEyNDMyMDwvdGQ+PC90cj48dHI+PHRkIGNsYXNzPSd0ZDEnPuWFseacieaDheWGtTwvdGQ+PHRkIGNvbHNwYW49JzMnIGNsYXNzPSd0ZDUnPuWNleeLrOaJgOaciTwvdGQ+PC90cj48dHI+PHRkIGNsYXNzPSd0ZDEnPuWdkOiQvTwvdGQ+PHRkIGNvbHNwYW49JzMnIGNsYXNzPSd0ZDUnPuS4nOiOnuW4guWNl+WfjuWMuuWNl+Wfjuihl+mBk+aWsOS4rei3rzHlj7fmlrDkuK3pk7Yu6YeR6Imy5Y2O5bqtMeWPt+alvDLljZXlhYMxMTA15Y+3PC90ZD48L3RyPjx0cj48dGQgY2xhc3M9J3RkMSc+5p2D5bGe6K+B5piO5Y+356CBPC90ZD48dGQgY2xhc3M9J3RkMic+57Kk77yIMjAxOe+8ieS4nOiOnuS4jeWKqOS6p+adg+esrDA0MTA3OTblj7c8L3RkPjx0ZCBjbGFzcz0ndGQzJz7kuI3liqjkuqfljZXlhYPlj7c8YnIgLz7vvIjlnLDlj7fvvIk8L3RkPjx0ZCBjbGFzcz0ndGQ0Jz40NDE5MDMwMDkwMDJHQjAwMjA2RjAwMDEwMjAyPC90ZD48L3RyPjx0cj48dGQgY2xhc3M9J3RkMSc+5p2D5Yip57G75Z6LPC90ZD48dGQgY2xhc3M9J3RkMic+5Zu95pyJ5bu66K6+55So5Zyw5L2/55So5p2DL+aIv+Wxi+aJgOacieadgzwvdGQ+PHRkIGNsYXNzPSd0ZDMnPuadg+WIqeaAp+i0qDwvdGQ+PHRkIGNsYXNzPSd0ZDQnPuWcn+WcsO+8muWHuuiuqSAvIOaIv+Wxi++8muW4guWcuuWMluWVhuWTgeaIvzwvdGQ+PC90cj48dHI+PHRkIGNsYXNzPSd0ZDEnPueUqOmAlDwvdGQ+PHRkIGNsYXNzPSd0ZDInPuS9j+WuhTwvdGQ+PHRkIGNsYXNzPSd0ZDMnPumdouenr++8iG3Csu+8iTwvdGQ+PHRkIGNsYXNzPSd0ZDQnPuWcn+WcsO+8muWul+WcsOmdouenrzY4NjkuNjDjjqEgLyDmiL/lsYvvvJrlu7rnrZHpnaLnp683OC44NuOOoTwvdGQ+PC90cj48dHI+PHRkIGNsYXNzPSd0ZDEnPueZu+iusOaXpeacnzwvdGQ+PHRkIGNsYXNzPSd0ZDInPjIwMTktMTEtMjc8L3RkPjx0ZCBjbGFzcz0ndGQzJz7lnJ/lnLDnu4jmraLml6XmnJ88L3RkPjx0ZCBjbGFzcz0ndGQ0Jz4yMDYyLTEyLTIyIDAwOjAwOjAwPC90ZD48L3RyPjx0cj48dGQgY2xhc3M9J3RkMCc+5LqnPGJyIC8+5p2DPGJyIC8+54q2PGJyIC8+5oCBPC90ZD48dGQgY2xhc3M9J3RkNicgY29sc3Bhbj0nNCc+KuaKteaKvOaDheWGte+8mjxiciAvPjHjgIHmirXmirzmnYPkurrvvJrlub/kuJzljZfmnqvono3otYTmi4Xkv53pm4blm6LmnInpmZDlhazlj7jvvJvmirXmirzkurrvvJrmnpfmtIHku6rvvJvmirXmirzmlrnlvI/vvJrmnIDpq5jpop3mirXmirzvvJvmirXmirzpobrkvY3vvJrnrKzkuIDpobrkvY3vvJvmirXmirzmnJ/pmZDvvJoyMDIzLTA2LTE0IOiHsyAyMDI0LTA2LTE077yb5YC65p2D5pWw6aKd77yaIDI2MOS4h+WFg++8m+aKteaKvOiMg+WbtO+8muWFqOmDqO+8m+aYr+WQpuWtmOWcqOemgeatouaIlumZkOWItui9rOiuqeaKteaKvOS4jeWKqOS6p+eahOe6puWumu+8muaYr++8m+eZu+iusOivgeaYjuWPt++8mueypO+8iDIwMjPvvInkuJzojp7kuI3liqjkuqfor4HmmI7nrKwwMTA3NzAz5Y+377yb55m76K6w5pe26Ze077yaMjAyMy0wNi0xNeOAgjxiciAvPjxiciAvPirmn6XlsIHmg4XlhrXvvJo8YnIgLz7ml6Dmn6XlsIHjgII8YnIgLz48L3RkPjwvdHI+PHRyPjx0ZCBjbGFzcz0ndGQwJz7lpIc8YnIgLz7ms6g8L3RkPjx0ZCBjbGFzcz0ndGQ2JyBjb2xzcGFuPSc0Jz48L3RkPjwvdHI+PC90YWJsZT48L2Rpdj48L2Rpdj5kZLd9jxq14CFhZAHKcNuORGG1k0ml" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="854C7188" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBALO1fnqBwLC767vDAKsi6CsCQLvjry/BXISmPWwi0I9Kda+bunmjCM1BMn9" />
+</div>
+    <div>
+        <div class="bar10">
+            <div style="margin-top: 8px">
+                不动产登记信息查询结果查验</div>
+        </div>
+        <div>
+            <div style="padding-top: 16px; padding-left: 16px;">
+                结果编号：<input name="no" type="text" value="002023072602410" maxlength="20" id="no" title="格式：012013052900001" style="width:120px;" />
+                校验码：<input name="cNo" type="text" value="AB1ED1" maxlength="6" id="cNo" style="width:80px;" />
+                <input onclick="if (checkCondition())  __doPostBack('btnQuery','')" name="btnQuery" type="button" id="btnQuery" value="确定" class="button" />
+            </div>
+            <div>
+                <center>
+                    <div class='div00'><div class='div01'>不动产登记信息查询结果</div><div class='div02'>（权利人查询）</div><div class='div03'>编&nbsp;&nbsp;号：002023072602410</div><div class='div04'>校验码：AB1ED1</div><div class='div11'><table><tr><td rowspan='2' class='td0' nowrap>申请<br />查询<br />条件</td><td class='td1' nowrap>权利人</td><td class='td2' nowrap>林洁仪</td><td class='td3' nowrap>身份证明号码</td><td class='td4' nowrap>441226199808124320</td></tr><tr><td class='td1'>坐落</td><td class='td2'>东莞市南城区南城街道新中路1号新中银.金色华庭1号楼2单元1105号</td><td class='td3'>权属证明号码</td><td class='td4'>粤（2019）东莞不动产权第0410796号</td></tr><tr><td rowspan='7' class='td0'>不<br />动<br />产<br />登<br />记<br />情<br />况</td><td class='td1'>权利人</td><td class='td2'>林洁仪</td><td class='td3'>身份证明号码</td><td class='td4'>441226199808124320</td></tr><tr><td class='td1'>共有情况</td><td colspan='3' class='td5'>单独所有</td></tr><tr><td class='td1'>坐落</td><td colspan='3' class='td5'>东莞市南城区南城街道新中路1号新中银.金色华庭1号楼2单元1105号</td></tr><tr><td class='td1'>权属证明号码</td><td class='td2'>粤（2019）东莞不动产权第0410796号</td><td class='td3'>不动产单元号<br />（地号）</td><td class='td4'>441903009002GB00206F00010202</td></tr><tr><td class='td1'>权利类型</td><td class='td2'>国有建设用地使用权/房屋所有权</td><td class='td3'>权利性质</td><td class='td4'>土地：出让 / 房屋：市场化商品房</td></tr><tr><td class='td1'>用途</td><td class='td2'>住宅</td><td class='td3'>面积（m²）</td><td class='td4'>土地：宗地面积6869.60㎡ / 房屋：建筑面积78.86㎡</td></tr><tr><td class='td1'>登记日期</td><td class='td2'>2019-11-27</td><td class='td3'>土地终止日期</td><td class='td4'>2062-12-22 00:00:00</td></tr><tr><td class='td0'>产<br />权<br />状<br />态</td><td class='td6' colspan='4'>*抵押情况：<br />1、抵押权人：广东南枫融资担保集团有限公司；抵押人：林洁仪；抵押方式：最高额抵押；抵押顺位：第一顺位；抵押期限：2023-06-14 至 2024-06-14；债权数额： 260万元；抵押范围：全部；是否存在禁止或限制转让抵押不动产的约定：是；登记证明号：粤（2023）东莞不动产证明第0107703号；登记时间：2023-06-15。<br /><br />*查封情况：<br />无查封。<br /></td></tr><tr><td class='td0'>备<br />注</td><td class='td6' colspan='4'></td></tr></table></div></div></center>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
